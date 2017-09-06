@@ -48,6 +48,8 @@ API
 
 $ oc describe serviceaccount nagios
 $ oc describe secret nagios-token-zzzzz
+
+oadm policy add-cluster-role-to-user cluster-reader system:serviceaccount:openshift-infra:nagios
 </pre>
 
 That's it. Enjoy.
