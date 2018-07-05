@@ -1,3 +1,5 @@
+<h3>Moved to https://gitlab.com/nagios_plugins/pods_on_node </h3>
+
 <H3> Nagios plugin for openshift </h3>
 
 This is simple python script which sends api request to openshift (or kubernetes) master server: `/api/v1/pods` and parse json response.
